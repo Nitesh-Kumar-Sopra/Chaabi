@@ -1,0 +1,52 @@
+/* .typing-challenge-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.type-challenge-cont {
+    display: flex;
+    flex-grow: 1;
+} */
+
+
+
+.typing-challenge-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .details-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .type-challenge-cont {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for small devices */
+    .details-container {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Adjust styles for extra small devices */
+    .type-challenge-cont {
+      flex-direction: column;
+    }
+  }
+  
